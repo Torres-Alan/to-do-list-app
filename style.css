@@ -1,0 +1,22 @@
+.container {
+    background: red;
+}
+
+.todo-app {
+    background: yellow;
+    border-radius: 0;
+}
+
+.row {
+    background: blue;
+}
+
+button {
+    background: green;
+    border-radius: 0;
+}
+
+input {
+    background: black;
+    color: white;
+}
