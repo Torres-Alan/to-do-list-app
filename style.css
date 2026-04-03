@@ -109,3 +109,37 @@ ul li span {
 ul li span:hover {
     background: #edeef0;
 }
+
+ul li span.edit-btn {
+    right: 40px;
+    font-size: 16px;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+    color: #002765;
+}
+
+ul li span.edit-btn:hover {
+    background: #edeef0;
+}
+
+ul li span.edit-btn.saving {
+    color: #28a745;
+}
+
+ul li .edit-input {
+    border: none;
+    border-bottom: 2px solid #ff5945;
+    outline: none;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    color: #002765;
+    background: transparent;
+    width: 70%;
+    padding: 0;
+    color: #333;
+}
+
+ul li span:not(.edit-btn) {
+    color: #ff5945;
+}
